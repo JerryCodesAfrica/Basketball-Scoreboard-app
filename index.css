@@ -9,73 +9,162 @@ body {
     src: url(./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
 }
 
-.container {
-    padding: 20px;
-    max-width: 70%;
-    position: relative;
-    top: 25vh;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+@media screen and (min-width: 750px) {
+    .container {
+        padding: 20px;
+        max-width: 70%;
+        position: relative;
+        top: 25vh;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    div h3{
+        color: white;
+        margin: 0 auto;
+    }
+    
+    #home-point, #away-point{
+        display: grid;
+    }
+    
+    #home-sl, #away-sl{
+        font-family: 'Cursed Timer ULiL';  
+        text-align: center;
+        position: relative;
+        background: black;
+        width: 155px;
+        height: 120px;
+        font-size: 90px;
+        line-height: 127px;
+        /* or 141% */
+        color: red;
+    }
+    
+    #button-container button{
+        position: relative;
+        width: 45px;
+        height: 40px;
+        margin: 0 auto;
+        margin-right: 5px;
+        top: 20px;
+        background: none;
+        color: #9AABD8;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+    }
+    
+    #xtra{
+        background-color: white;
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+        top: 20px;
+        width: 200px;
+        display: grid;
+    }
+    
+    #xtra button{
+        background-color:#1B244A;
+        border-width: 1px;
+        color: white;
+        border-radius: 5px;
+        position: relative;
+        top: 15px;
+        margin: 0 auto;
+        max-width: 80%;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+    }
 }
 
-div h3{
-    color: white;
-    margin: 0 auto;
-}
 
-#home-point, #away-point{
-    display: grid;
-}
 
-#home-sl, #away-sl{
-    font-family: 'Cursed Timer ULiL';  
-    text-align: center;
-    position: relative;
-    background: black;
-    width: 155px;
-    height: 120px;
-    font-size: 90px;
-    line-height: 127px;
-    /* or 141% */
-    color: red;
-}
-
-#button-container button{
-    position: relative;
-    width: 45px;
-    height: 40px;
-    margin: 0 auto;
-    margin-right: 5px;
-    top: 20px;
-    background: none;
-    color: #9AABD8;
-    border: 2px solid #9AABD8;
-    border-radius: 5px;
-}
-
-#xtra{
-    background-color: white;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    top: 20px;
-    width: 200px;
-    display: grid;
-}
-
-#xtra button{
-    background-color:#1B244A;
-    border-width: 1px;
-    color: white;
-    border-radius: 5px;
-    position: relative;
-    top: 15px;
-    margin: 0 auto;
-    max-width: 80%;
-    width: 200px;
-    height: 40px;
-    text-align: center;
+@media screen and ( min-width: 300px) {
+    .container {
+        padding: 20px;
+        max-width: 70%;
+        position: relative;
+        top: 25vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    div h3{
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+    }
+    
+    #home-point, #away-point{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    
+    #home-sl, #away-sl{
+        margin: 0 auto;
+        font-family: 'Cursed Timer ULiL';  
+        text-align: center;
+        position: relative;
+        background: black;
+        width: 200px;
+        height: 120px;
+        font-size: 90px;
+        line-height: 127px;
+        /* or 141% */
+        color: red;
+        
+    }
+    
+    #button-container{
+        width: auto;
+        margin: 0 auto;
+    }
+    #button-container button{
+        position: relative;
+        text-align: center;
+        width: 55px;
+        height: 40px;
+        margin-right: 5px;
+        top: 20px;
+        background: none;
+        color: #9AABD8;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+    }
+    
+    #xtra{
+        background-color: white;
+        margin: 0 auto;
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+        position: relative;
+        top: 80px;
+        width: 200px;
+        height: 100px;
+        display: grid;
+    }
+    
+    #xtra button{
+        background-color:#1B244A;
+        border-width: 1px;
+        color: white;
+        border-radius: 5px;
+        position: relative;
+        top: 15px;
+        margin: 0 auto;
+        max-width: 80%;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+    }
 }
