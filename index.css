@@ -151,8 +151,15 @@ body {
         position: relative;
         top: 50px;
         width: 200px;
-        height: 100px;
+        height: 180px;
         display: grid;
+    }
+
+    #result{
+        text-align: center;
+        color: black;
+        font-weight: 9000;
+        font-size: 20px;
     }
     
     #xtra button{
