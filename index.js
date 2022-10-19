@@ -72,6 +72,17 @@ function newQuarter() {
 }
 
 function newGame() {
+    let me = home.textContent;
+
+    me.style.color = "red";
+
+    let you = away.textContent;
+
+    you.style.color = "red";
+    
+    let result = document.getElementById("result");
+
+    result.textContent = " ";
 
     homePoint = 0;
 
@@ -100,5 +111,9 @@ function win() {
         away.style.color = "green";
 
         home.style.color = "red";
+    } else if( you == me) {
+        away.style.color = "orange";
+
+        home.style.color = "orange";
     }
 }
