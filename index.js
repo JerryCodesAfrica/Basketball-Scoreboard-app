@@ -57,3 +57,15 @@ function newGame() {
     awayPoint = 0 ;
     away.textContent = awayPoint;
 }
+
+function win() {
+    let me = home.textContent;
+    let you = away.textContent;
+    if (me > you) {
+        home.style.color = "green";
+        away.style.color = "red";
+    } else {
+        away.style.color = "green";
+        home.style.color = "red";
+    }
+}
