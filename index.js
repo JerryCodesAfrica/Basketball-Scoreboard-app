@@ -50,3 +50,10 @@ function highlightWinner() {
 // let pointA = away.textContent;
 
 // if(pointH > pointA)
+
+function newGame() {
+    homePoint = 0;
+    home.textContent = homePoint;
+    awayPoint = 0 ;
+    away.textContent = awayPoint;
+}
