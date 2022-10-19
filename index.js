@@ -67,8 +67,7 @@ function newQuarter() {
     let you = away.textContent;
 
     let result = document.getElementById("result");
-
-    result.textContent = "Home " + me + " - " + " Away " + you;
+    result.textContent += "  Home " + me + " - " + " Away " + you;
 
 }
 
@@ -99,7 +98,7 @@ function win() {
     } else if(you > me) {
 
         away.style.color = "green";
-        
+
         home.style.color = "red";
     }
 }
