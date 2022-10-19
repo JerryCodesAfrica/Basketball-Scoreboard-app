@@ -81,6 +81,8 @@ body {
         height: 40px;
         text-align: center;
     }
+
+   
 }
 
 
@@ -165,5 +167,10 @@ body {
         width: 200px;
         height: 40px;
         text-align: center;
+    }
+    #xtra button:active{
+        color: #1B244A;
+        background-color: white;
+        border-color: #1B244A;
     }
 }

@@ -64,7 +64,7 @@ function win() {
     if (me > you) {
         home.style.color = "green";
         away.style.color = "red";
-    } else {
+    } else if(you > me) {
         away.style.color = "green";
         home.style.color = "red";
     }
