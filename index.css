@@ -229,10 +229,11 @@ body {
 
     #teamSelectForm input{
         padding: 10px;
-        margin: 5%;
+        margin: 10%;
         position: relative;
         align-items: center;
         margin-top: 20px;
+        left: 10px;
         height: 25px;
     }
 
