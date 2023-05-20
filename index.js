@@ -100,17 +100,13 @@ function newGame() {
 
 function win() {
 
-    let me = home.textContent;
-
-    let you = away.textContent;
-
-    if (me > you) {
+    if (homePoint > awayPoint) {
 
         home.style.color = "green";
 
         away.style.color = "red";
 
-    } else if(you > me) {
+    } else if(awayPoint > homePoint) {
 
         away.style.color = "green";
 
