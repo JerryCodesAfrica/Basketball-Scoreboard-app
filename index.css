@@ -83,6 +83,7 @@ body {
     }
 
     #teamSelectForm{
+        display: none;
         background-color: white;
         width: 280px;
         height: 240px;
