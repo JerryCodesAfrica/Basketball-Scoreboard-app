@@ -41,6 +41,13 @@ function addThreeToHome() {
     home.textContent = homePoint;
 }
 
+function subtractOneFromeHome(){
+    //subtracting one point from the home team
+    homePoint = homePoint-1;
+    
+    home.textContent = homePoint;
+}
+
 //away points
 
 function addOneToAway() {
@@ -64,6 +71,13 @@ function addThreeToAway() {
     away.textContent = awayPoint;
 }
 
+function subtractOneFromeAway(){
+    //subtracting one point from the home team
+    awayPoint = awayPoint-1;
+    
+    away.textContent = awayPoint;
+}
+
 
 function newQuarter() {
     //new quarter stores the previous scores in a marquee
@@ -79,7 +93,10 @@ function newQuarter() {
 
 }
 
+let form = document.getElementById("teamSelectForm");
+
 function newGame() {
+form.style.display = "inline";
 
     homePoint = 0;
 
@@ -116,4 +133,31 @@ function win() {
 
         home.style.color = "orange";
     }
+}
+
+let firstTeam = document.getElementById("homeText");
+
+let secondTeam = document.getElementById("awayText");
+
+function submitForm() {
+    let firstTa = document.getElementById("homeTeam").value;
+
+    let secondTa = document.getElementById("awayTeam").value;
+
+    if (firstTa == " "){
+        alert("Wrong input");
+    }else if(secondTa == "") {
+        alert("wrong input");
+    }else{
+        firstTeam.textContent = firstTa;
+
+        secondTeam.textContent = secondTa;
+
+        form.style.display = "none";
+    }
+    
+
+    
+
+
 }
