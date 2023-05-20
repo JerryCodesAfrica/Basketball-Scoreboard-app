@@ -219,7 +219,7 @@ body {
         display: none;
         background-color: white;
         width: 100%;
-        height: 270px;
+        height: 290px;
         padding: 20px;
         position: absolute;
         border-radius: 5%;
@@ -229,7 +229,9 @@ body {
 
     #teamSelectForm input{
         padding: 10px;
+        margin: 10%;
         position: relative;
+        align-items: center;
         margin-top: 20px;
         left: 10px;
         height: 25px;
