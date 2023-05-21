@@ -10,6 +10,7 @@
             "purpose": "any maskable"
         }
     ],
+    "start_url": "/",
     "orientation":"portrait",
     "display": "standalone"
 }
