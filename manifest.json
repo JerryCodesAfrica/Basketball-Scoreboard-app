@@ -11,12 +11,12 @@
             "purpose": "maskable"
         },
 
-        {
-            "src": "./bball-removebg-preview.png",
-            "sizes": "500x500",
-            "type": "image/png",
-            "purpose": "any maskable"
-        }
+        // {
+        //     "src": "./bball-removebg-preview.png",
+        //     "sizes": "500x500",
+        //     "type": "image/png",
+        //     "purpose": "any maskable"
+        // }
     ],
 
     "background_color":"white",
