@@ -1,5 +1,5 @@
 {
-    "name" : "Baskteball points counter",
+    "name" : "Baskteball counter",
     "short_name": "Bball counter",
 
     "icons": [
@@ -10,8 +10,9 @@
             "purpose": "any maskable"
         }
     ],
+    "background_color": "blue",
     "theme_color":"#FFFFFF",
-    "start_url": "/",
+    "start_url": "/index.html",
     "orientation":"portrait",
     "display": "standalone"
 }
