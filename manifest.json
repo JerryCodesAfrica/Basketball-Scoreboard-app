@@ -1,6 +1,7 @@
 {
     "name" : "Baskteball counter",
     "short_name": "Bball counter",
+    "background_color":"white",
     "theme_color":"#FFFFFF",
     "start_url": "/index.html",
     "display": "standalone",
