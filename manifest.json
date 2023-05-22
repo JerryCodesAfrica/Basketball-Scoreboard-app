@@ -9,19 +9,9 @@
     "icons": [
         {
             "src": "/bball-removebg-preview.png",
-            "sizes": "192x192",
+            "sizes": "200x230",
             "type": "image/png",
             "purpose": "any maskable"
         }
-<<<<<<< HEAD
     ]
-
-=======
-    ],
-    "background_color": "blue",
-    "theme_color":"#FFFFFF",
-    "start_url": "/index.html",
-    "orientation":"portrait",
-    "display": "standalone"
->>>>>>> aa191d34440fa8c1bb439a92f7b309bbe8b62b49
 }
