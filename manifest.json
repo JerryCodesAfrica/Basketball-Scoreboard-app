@@ -7,16 +7,16 @@
         {
             "src": "./bball-removebg-preview.png",
             "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
+            "type": "image/jpeg",
+            "purpose": "any maskable"
         },
 
-        // {
-        //     "src": "./bball-removebg-preview.png",
-        //     "sizes": "500x500",
-        //     "type": "image/png",
-        //     "purpose": "any maskable"
-        // }
+        {
+            "src": "./bball-removebg-preview.png",
+            "sizes": "500x500",
+            "type": "image/jpeg",
+            "purpose": "any maskable"
+        }
     ],
 
     "background_color":"white",
