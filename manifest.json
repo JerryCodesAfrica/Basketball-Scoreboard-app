@@ -1,18 +1,20 @@
 {
     "name" : "Baskteball counter",
     "short_name": "Bball counter",
-    "background_color":"white",
-    "theme_color":"#FFFFFF",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "orientation":"portrait",
+    
 
     "icons": [
         {
-            "src": "/bball-removebg-preview.png",
+            "src": "./bball-removebg-preview.png",
             "sizes": "200x230",
             "type": "image/png",
             "purpose": "any maskable"
         }
-    ]
+    ],
+    "background_color":"white",
+    "theme_color":"#FFFFFF",
+    "start_url": "/index.html",
+    "orientation":"portrait",
+    "display": "standalone"
+    
 }
