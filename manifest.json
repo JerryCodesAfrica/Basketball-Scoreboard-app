@@ -6,7 +6,7 @@
     "icons": [
         {
             "src": "./bball-removebg-preview.png",
-            "sizes": "230x230",
+            "sizes": "250x230",
             "type": "image/png",
             "purpose": "any maskable"
         }
