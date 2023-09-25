@@ -22,6 +22,12 @@ body {
         justify-content: space-around;
     }
     
+.timer{
+    width: 1.5rem;
+    background-color: #fff;
+    
+}
+
     div h3{
         color: white;
         margin: 0 auto;
